@@ -2,6 +2,12 @@
 Compares the speed of the OPEX JSON libraries. The size of the virtual environment is
 output as well.
 
+Libraries compared:
+
+* [opex](https://github.com/WaikatoLink2020/objdet-predictions-exchange-format)
+* [fast-opex](https://github.com/waikato-datamining/fast-opex)
+* [fast-opex](https://github.com/waikato-datamining/fast-opex) with [orjson](https://github.com/ijl/orjson) backend
+
 
 ## Setup
 
