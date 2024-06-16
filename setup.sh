@@ -17,14 +17,17 @@ function init_venv()
 # opex
 venv_dir="opex"
 init_venv
+$venv_dir/bin/pip install wheel
 $venv_dir/bin/pip install opex
 
 # fast-opex
 venv_dir="fast-opex"
 init_venv
+$venv_dir/bin/pip install wheel
 $venv_dir/bin/pip install fast-opex
 
 # fast-opex with orjson
 venv_dir="fast-opex_w_orjson"
 init_venv
+$venv_dir/bin/pip install wheel
 $venv_dir/bin/pip install fast-opex orjson
