@@ -34,17 +34,23 @@ The script can take up to two arguments:
 
 ```
 opex
-from_string 4.817561445001047
-to_string 1.4682756529946346
-18M	./opex
+from_file 4.896808718011016
+from_string 4.788844366004923
+to_string 1.4709006830235012
+to_string_indent2 1.6097621250082739
+19M	./opex
 
 fast-opex
-from_string 0.024294675997225568
-to_string 0.022574107017135248
-7.7M	./fast-opex
+from_file 0.022091199993155897
+from_string 0.021762415999546647
+to_string 0.020520321995718405
+to_string_indent2 0.1399811829905957
+8.2M	./fast-opex
 
 fast-opex_w_orjson
-from_string 0.014092327008256689
-to_string 0.002413242997135967
-8.1M	./fast-opex_w_orjson
+from_file 0.01409881902509369
+from_string 0.0144687729771249
+to_string 0.002522158989449963
+to_string_indent2 0.003538827004376799
+8.6M	./fast-opex_w_orjson
 ```
